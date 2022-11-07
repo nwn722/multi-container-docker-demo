@@ -9,3 +9,6 @@ This is a multi-container simple hello world program by integrating flask, nginx
 
 # To Start the application 
 $sudo docker compose up -d
+
+# To test the application
+curl --request GET 'http://[nginx server IP]/hello'
